@@ -35,3 +35,27 @@ ul {
   text-align: left;
   margin-top: 1rem;
 }
+.paper {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+.paper-img {
+  width: 180px;
+  height: 140px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+.paper-text {
+  flex: 1;
+}
+.paper-text .title {
+  font-size: 1.1rem;
+  margin: 0 0 0.3rem;
+  font-weight: bold;
+}
+.paper-text p {
+  margin: 0.2rem 0;
+}
+
