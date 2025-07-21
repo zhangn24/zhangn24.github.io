@@ -85,25 +85,31 @@ table#teaching strong {
   background: #fff;
 }
 
-table#education {
-  width: 100%;
-  border-collapse: collapse;
+/* Education section (non‑table style) */
+.education {
   margin-bottom: 2em;
 }
-table#education td {
-  vertical-align: top;
-  padding: 0.75em 0;
+.education .edu-item {
+  margin-bottom: 1.5em;
 }
-table#education td.period {
-  width: 20%;
-  font-weight: bold;
+.education h3 {
+  margin: 0.2em 0;
+  font-size: 1.15em;
+  line-height: 1.3;
+}
+.education h3 span {
+  font-weight: normal;
+  font-size: 0.9em;
   color: #555;
-  padding-right: 1em;
 }
-table#education ul {
-  margin: 0.5em 0 0 1em;
-}
-table#education strong {
-  display: block;
+.education .institution {
+  color: #555;
+  font-style: italic;
   margin-bottom: 0.5em;
+}
+.education p {
+  margin: 0.3em 0;
+}
+.education p strong {
+  font-weight: bold;
 }
