@@ -1,25 +1,32 @@
 
 body {
-  font-family: Arial, sans-serif;
-  background: #fdfdfd;
-  color: #333;
-  margin: 0;
-  padding: 2rem;
-}
-.container {
-  max-width: 720px;
+  font-family: Helvetica, sans-serif;
+  max-width: 900px;
   margin: auto;
-  text-align: center;
+  padding: 2em;
+  background: #ffffff;
+  color: #000;
 }
-.profile {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
+h1, h2 {
+  margin-bottom: 0.25em;
 }
-h1 {
-  margin: 1rem 0 0.25rem;
-  font-size: 2.25rem;
+table#header {
+  width: 100%;
+  margin-bottom: 2em;
+}
+table#header img {
+  margin-right: 2em;
+}
+table#papers {
+  width: 100%;
+}
+table#papers td {
+  vertical-align: top;
+  padding-bottom: 1.5em;
+}
+papertitle {
+  font-weight: bold;
+  font-size: 1.05em;
 }
 a {
   color: #0645AD;
@@ -28,34 +35,42 @@ a {
 a:hover {
   text-decoration: underline;
 }
-h2 {
-  margin-top: 2.5rem;
-}
-ul {
-  text-align: left;
-  margin-top: 1rem;
-}
-.paper {
-  display: flex;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-  align-items: flex-start;
-}
-.paper-img {
-  width: 180px;
-  height: 140px;
-  object-fit: cover;
-  border: 1px solid #ddd;
-}
-.paper-text {
-  flex: 1;
-}
-.paper-text .title {
-  font-size: 1.1rem;
-  margin: 0 0 0.3rem;
-  font-weight: bold;
-}
-.paper-text p {
-  margin: 0.2rem 0;
-}
 
+/* Teaching Experience */
+table#teaching {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+table#teaching td {
+  vertical-align: top;
+  padding: 0.75em 0;
+}
+table#teaching td.period {
+  width: 20%;
+  font-weight: bold;
+  color: #555;
+  padding-right: 1em;
+}
+table#teaching ul {
+  margin: 0.5em 0 0 1em;
+}
+table#teaching strong {
+  display: block;
+  margin-bottom: 0.5em;
+}
+/* Research Road Map */
+#research-roadmap {
+  margin: 2em 0;
+  text-align: center;
+}
+#research-roadmap h2 {
+  margin-bottom: 0.5em;
+}
+.roadmap‐wrapper img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  padding: 8px;
+  background: #fff;
+}
