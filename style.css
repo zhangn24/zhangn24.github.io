@@ -69,17 +69,18 @@ table#teaching strong {
   margin-bottom: 0.5em;
 }
 
-/* Constrain roadmap to 70% of container, keep centered */
-.roadmap-wrapper {
-  width: 70%;
+/* Constrain wrapper to 70% of the page, center it */
+#research-roadmap .roadmap-wrapper {
+  max-width: 70%;
   margin: 0 auto;
 }
 
-.roadmap-wrapper img {
+/* Make image fill the wrapper */
+#research-roadmap .roadmap-wrapper img {
+  display: block;
   width: 100%;
   height: auto;
   border: 1px solid #ddd;
   padding: 8px;
   background: #fff;
 }
-
