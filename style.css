@@ -64,13 +64,22 @@ table#teaching strong {
   margin: 2em 0;
   text-align: center;
 }
+
 #research-roadmap h2 {
   margin-bottom: 0.5em;
 }
-.roadmap‐wrapper img {
-  max-width: 100%;
+
+/* Constrain roadmap to 70% of container, keep centered */
+.roadmap-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.roadmap-wrapper img {
+  width: 100%;
   height: auto;
   border: 1px solid #ddd;
   padding: 8px;
   background: #fff;
 }
+
