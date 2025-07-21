@@ -84,3 +84,26 @@ table#teaching strong {
   padding: 8px;
   background: #fff;
 }
+
+table#education {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+table#education td {
+  vertical-align: top;
+  padding: 0.75em 0;
+}
+table#education td.period {
+  width: 20%;
+  font-weight: bold;
+  color: #555;
+  padding-right: 1em;
+}
+table#education ul {
+  margin: 0.5em 0 0 1em;
+}
+table#education strong {
+  display: block;
+  margin-bottom: 0.5em;
+}
