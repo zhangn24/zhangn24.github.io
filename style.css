@@ -71,7 +71,7 @@ table#teaching strong {
 
 /* Constrain wrapper to 70% of the page, center it */
 #research-roadmap .roadmap-wrapper {
-  max-width: 70%;
+  max-width: 85%;
   margin: 0 auto;
 }
 
