@@ -85,6 +85,18 @@ table#teaching strong {
   background: #fff;
 }
 
+/* Force roadmap to 85% width */
+#research-roadmap .roadmap-wrapper {
+  max-width: 85% !important;
+  margin: 0 auto !important;
+}
+#research-roadmap .roadmap-wrapper img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+}
+
+
 /* Education section (non‑table style) */
 .education {
   margin-bottom: 2em;
